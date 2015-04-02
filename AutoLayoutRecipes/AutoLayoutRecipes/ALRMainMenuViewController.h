@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ALRMainMenuViewController.h
 //  AutoLayoutRecipes
 //
 //  Created by Allen Cheung on 4/1/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ALRMainMenuViewController : UITableViewController
 
 @end
-

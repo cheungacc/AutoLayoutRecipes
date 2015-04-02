@@ -1,22 +1,30 @@
 //
-//  AppDelegate.m
+//  ALRAppDelegate.m
 //  AutoLayoutRecipes
 //
 //  Created by Allen Cheung on 4/1/15.
 //  Copyright (c) 2015 Allen Cheung. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "ALRAppDelegate.h"
 
-@interface AppDelegate ()
+#import "ALRMainMenuViewController.h"
+
+@interface ALRAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation ALRAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    ALRMainMenuViewController *viewController = [[ALRMainMenuViewController alloc] initWithStyle:UITableViewStylePlain];
+    
+    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:viewController];
+    self.window.rootViewController = nc;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ALRAppDelegate.h
 //  AutoLayoutRecipes
 //
 //  Created by Allen Cheung on 4/1/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface ALRAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

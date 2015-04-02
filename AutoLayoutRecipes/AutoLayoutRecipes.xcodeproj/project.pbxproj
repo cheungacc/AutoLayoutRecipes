@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A8F5B6111ACD03E700A91BC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F5B6101ACD03E700A91BC5 /* main.m */; };
-		A8F5B6141ACD03E700A91BC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F5B6131ACD03E700A91BC5 /* AppDelegate.m */; };
-		A8F5B6171ACD03E700A91BC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F5B6161ACD03E700A91BC5 /* ViewController.m */; };
-		A8F5B61A1ACD03E700A91BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F5B6181ACD03E700A91BC5 /* Main.storyboard */; };
+		A8F5B6141ACD03E700A91BC5 /* ALRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F5B6131ACD03E700A91BC5 /* ALRAppDelegate.m */; };
 		A8F5B61C1ACD03E700A91BC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F5B61B1ACD03E700A91BC5 /* Images.xcassets */; };
 		A8F5B61F1ACD03E700A91BC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F5B61D1ACD03E700A91BC5 /* LaunchScreen.xib */; };
 		A8F5B62B1ACD03E700A91BC5 /* AutoLayoutRecipesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F5B62A1ACD03E700A91BC5 /* AutoLayoutRecipesTests.m */; };
+		A8F5B6361ACD04A800A91BC5 /* ALRMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F5B6351ACD04A800A91BC5 /* ALRMainMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +29,15 @@
 		A8F5B60B1ACD03E700A91BC5 /* AutoLayoutRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F5B60F1ACD03E700A91BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8F5B6101ACD03E700A91BC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A8F5B6121ACD03E700A91BC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A8F5B6131ACD03E700A91BC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A8F5B6151ACD03E700A91BC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A8F5B6161ACD03E700A91BC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A8F5B6191ACD03E700A91BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8F5B6121ACD03E700A91BC5 /* ALRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALRAppDelegate.h; sourceTree = "<group>"; };
+		A8F5B6131ACD03E700A91BC5 /* ALRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALRAppDelegate.m; sourceTree = "<group>"; };
 		A8F5B61B1ACD03E700A91BC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A8F5B61E1ACD03E700A91BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A8F5B6241ACD03E700A91BC5 /* AutoLayoutRecipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutRecipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F5B6291ACD03E700A91BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8F5B62A1ACD03E700A91BC5 /* AutoLayoutRecipesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutRecipesTests.m; sourceTree = "<group>"; };
+		A8F5B6341ACD04A800A91BC5 /* ALRMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRMainMenuViewController.h; sourceTree = "<group>"; };
+		A8F5B6351ACD04A800A91BC5 /* ALRMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRMainMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +79,10 @@
 		A8F5B60D1ACD03E700A91BC5 /* AutoLayoutRecipes */ = {
 			isa = PBXGroup;
 			children = (
-				A8F5B6121ACD03E700A91BC5 /* AppDelegate.h */,
-				A8F5B6131ACD03E700A91BC5 /* AppDelegate.m */,
-				A8F5B6151ACD03E700A91BC5 /* ViewController.h */,
-				A8F5B6161ACD03E700A91BC5 /* ViewController.m */,
-				A8F5B6181ACD03E700A91BC5 /* Main.storyboard */,
+				A8F5B6121ACD03E700A91BC5 /* ALRAppDelegate.h */,
+				A8F5B6131ACD03E700A91BC5 /* ALRAppDelegate.m */,
+				A8F5B6341ACD04A800A91BC5 /* ALRMainMenuViewController.h */,
+				A8F5B6351ACD04A800A91BC5 /* ALRMainMenuViewController.m */,
 				A8F5B61B1ACD03E700A91BC5 /* Images.xcassets */,
 				A8F5B61D1ACD03E700A91BC5 /* LaunchScreen.xib */,
 				A8F5B60E1ACD03E700A91BC5 /* Supporting Files */,
@@ -199,7 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8F5B61A1ACD03E700A91BC5 /* Main.storyboard in Resources */,
 				A8F5B61F1ACD03E700A91BC5 /* LaunchScreen.xib in Resources */,
 				A8F5B61C1ACD03E700A91BC5 /* Images.xcassets in Resources */,
 			);
@@ -219,8 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8F5B6171ACD03E700A91BC5 /* ViewController.m in Sources */,
-				A8F5B6141ACD03E700A91BC5 /* AppDelegate.m in Sources */,
+				A8F5B6141ACD03E700A91BC5 /* ALRAppDelegate.m in Sources */,
+				A8F5B6361ACD04A800A91BC5 /* ALRMainMenuViewController.m in Sources */,
 				A8F5B6111ACD03E700A91BC5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +240,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A8F5B6181ACD03E700A91BC5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8F5B6191ACD03E700A91BC5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A8F5B61D1ACD03E700A91BC5 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,6 +402,7 @@
 				A8F5B6301ACD03E700A91BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8F5B6311ACD03E700A91BC5 /* Build configuration list for PBXNativeTarget "AutoLayoutRecipesTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +411,7 @@
 				A8F5B6331ACD03E700A91BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
