@@ -13,6 +13,8 @@
 		A8F5B61F1ACD03E700A91BC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F5B61D1ACD03E700A91BC5 /* LaunchScreen.xib */; };
 		A8F5B62B1ACD03E700A91BC5 /* AutoLayoutRecipesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F5B62A1ACD03E700A91BC5 /* AutoLayoutRecipesTests.m */; };
 		A8F5B6361ACD04A800A91BC5 /* ALRMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F5B6351ACD04A800A91BC5 /* ALRMainMenuViewController.m */; };
+		A8F5B6391ACD07EE00A91BC5 /* ALRKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F5B6381ACD07EE00A91BC5 /* ALRKeyboardViewController.m */; };
+		A8F5B63C1ACD096E00A91BC5 /* ALRKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F5B63B1ACD096E00A91BC5 /* ALRKeyboardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,10 @@
 		A8F5B62A1ACD03E700A91BC5 /* AutoLayoutRecipesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutRecipesTests.m; sourceTree = "<group>"; };
 		A8F5B6341ACD04A800A91BC5 /* ALRMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRMainMenuViewController.h; sourceTree = "<group>"; };
 		A8F5B6351ACD04A800A91BC5 /* ALRMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRMainMenuViewController.m; sourceTree = "<group>"; };
+		A8F5B6371ACD07EE00A91BC5 /* ALRKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRKeyboardViewController.h; sourceTree = "<group>"; };
+		A8F5B6381ACD07EE00A91BC5 /* ALRKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRKeyboardViewController.m; sourceTree = "<group>"; };
+		A8F5B63A1ACD096E00A91BC5 /* ALRKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRKeyboardView.h; sourceTree = "<group>"; };
+		A8F5B63B1ACD096E00A91BC5 /* ALRKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRKeyboardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,10 @@
 				A8F5B6131ACD03E700A91BC5 /* ALRAppDelegate.m */,
 				A8F5B6341ACD04A800A91BC5 /* ALRMainMenuViewController.h */,
 				A8F5B6351ACD04A800A91BC5 /* ALRMainMenuViewController.m */,
+				A8F5B6371ACD07EE00A91BC5 /* ALRKeyboardViewController.h */,
+				A8F5B6381ACD07EE00A91BC5 /* ALRKeyboardViewController.m */,
+				A8F5B63A1ACD096E00A91BC5 /* ALRKeyboardView.h */,
+				A8F5B63B1ACD096E00A91BC5 /* ALRKeyboardView.m */,
 				A8F5B61B1ACD03E700A91BC5 /* Images.xcassets */,
 				A8F5B61D1ACD03E700A91BC5 /* LaunchScreen.xib */,
 				A8F5B60E1ACD03E700A91BC5 /* Supporting Files */,
@@ -216,8 +226,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8F5B6141ACD03E700A91BC5 /* ALRAppDelegate.m in Sources */,
+				A8F5B6391ACD07EE00A91BC5 /* ALRKeyboardViewController.m in Sources */,
 				A8F5B6361ACD04A800A91BC5 /* ALRMainMenuViewController.m in Sources */,
 				A8F5B6111ACD03E700A91BC5 /* main.m in Sources */,
+				A8F5B63C1ACD096E00A91BC5 /* ALRKeyboardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
